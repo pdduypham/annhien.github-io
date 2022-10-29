@@ -9,10 +9,6 @@
     padding: 2%;
 }
 
-.row-container {
-    justify-content: center;
-    align-items: center;
-}
 
 .list-item {
     list-style-type: none;
@@ -100,4 +96,12 @@ body::-webkit-scrollbar {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+#agar-list,
+#rock-list,
+#lu-list,
+#co-list,
+#hoa-list {
+    padding-left: 0;
 }
