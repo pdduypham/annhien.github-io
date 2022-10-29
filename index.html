@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHONG THUỶ AN NHIÊN</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./images/logo.jpg">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row body">
+            <div class="col-md-4">
+                <img src="./images/logo.jpg" class="logo" width="300" height="300" />
+
+                <form action="#">
+                    <h4 style="margin-top: 10%;">Chất liệu:</h4>
+                    <div class="row">
+
+                        <div class="col-md-6 agar">
+                            <input type="radio" id="agar" name="materials" value="Trầm">
+                            <label for="agar">Trầm</label><br>
+                        </div>
+
+                        <div class="col-md-6 rock">
+                            <input type="radio" id="rock" name="materials" value="Đá">
+                            <label for="rock">Đá</label><br>
+                        </div>
+
+                    </div>
+
+                </form>
+
+                <form action="#">
+                    <h4>Mix thêm:</h4>
+                    <div class="row">
+                        <div class="col-md-6 lu-thong">
+                            <input type="radio" id="lu-thong" name="mix" value="Lu thống">
+                            <label for="lu-thong">Lu thống</label><br>
+                        </div>
+
+                        <div class="col-md-6 co">
+                            <input type="radio" id="co" name="mix" value="Cỏ 4 lá">
+                            <label for="co">Cỏ 4 lá</label><br>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12 hoa">
+                            <input type="radio" id="hoa" name="mix" value="Hoa sen/Hồ ly">
+                            <label for="hoa">Hoa sen/hồ ly...</label><br>
+                        </div>
+                    </div>
+                </form>
+
+                <form action="#" name="test">
+                    <h4>Kích cỡ:</h4>
+                    <div class="row">
+
+                        <div class="col-md-6 male">
+                            <input type="radio" id="male" name="gender" value="Nam">
+                            <label for="male">Nam</label><br>
+                        </div>
+
+                        <div class="col-md-6 female">
+                            <input type="radio" id="female" name="gender" value="Nữ">
+                            <label for="female">Nữ</label><br>
+                        </div>
+                    </div>
+                    <p style="color: red; font-size: small;">* Dựa vào hình minh hoạ bên cạnh để chọn kích cỡ phù hợp.
+                    </p>
+                </form>
+
+                <div class="row" style="justify-content: center; text-align: center;">
+                    <a href="https://zalo.me/0968005674" target="_blank" class="link-zalo">
+                        <button title="Zalo" class="btn-zalo">
+                            LIÊN HỆ ZALO
+                        </button>
+                    </a>
+
+                </div>
+
+                <br />
+
+                <div class="row" style="justify-content: center; text-align: center; margin-bottom: 5%;">
+                    <a href="tel:+0968005674" target="_self" class="link-call">
+                        <button title="Call" class="btn-call">
+                            LIÊN HỆ TRỰC TIẾP
+                        </button>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="col-md-8" id="content" style=" background-image: url(images/bg.jpg); ">
+                <img src="./images/size.jpg" width="100%" height="100%" id="img-size">
+
+                <ul id="agar-list">
+                    <div class="agar-items row">
+                        <div class="col-md-4">
+                            <li class="list-item">
+                                <img src="./images/img1.jpg" width="100%" height="300" />
+                                <p>Mẫu 1</p>
+                            </li>
+                        </div>
+
+                        <div class="col-md-4">
+                            <li class="list-item">
+                                <img src="./images/img2.jpg" width="100%" height="300" />
+                                <p>Mẫu 2</p>
+                            </li>
+                        </div>
+
+                        <div class="col-md-4">
+                            <li class="list-item">
+                                <img src="./images/img3.jpg" width="100%" height="300" />
+                                <p>Mẫu 3</p>
+                            </li>
+                        </div>
+                    </div>
+                    <div class="agar-items row">
+                        <div class="col-md-4">
+                            <li class="list-item">
+                                <img src="./images/img4.jpg" width="100%" height="300" />
+                                <p>Mẫu 4</p>
+                            </li>
+                        </div>
+
+                        <div class="col-md-4">
+                            <li class="list-item">
+                                <img src="./images/img5.jpg" width="100%" height="300" />
+                                <p>Mẫu 5</p>
+                            </li>
+                        </div>
+                    </div>
+                </ul>
+
+                <ul id="rock-list">
+                    <div class="rock-items row">
+                        <div class="col-md-4">
+                            <li class="rock-list-item">
+                                <img src="./images/img6.jpg" width="100%" height="300" />
+                                <p>Mẫu 1</p>
+                            </li>
+                        </div>
+
+                        <div class="col-md-4">
+                            <li class="rock-list-item">
+                                <img src="./images/img7.jpg" width="100%" height="300" />
+                                <p>Mẫu 2</p>
+                            </li>
+                        </div>
+
+                        <div class="col-md-4">
+                            <li class="rock-list-item">
+                                <img src="./images/img8.jpg" width="100%" height="300" />
+                                <p>Mẫu 3</p>
+                            </li>
+                        </div>
+                    </div>
+
+                    <div class="rock-items row">
+                        <div class="col-md-4">
+                            <li class="rock-list-item">
+                                <img src="./images/img9.jpg" width="100%" height="300" />
+                                <p>Mẫu 4</p>
+                            </li>
+                        </div>
+
+                        <div class="col-md-4">
+                            <li class="rock-list-item">
+                                <img src="./images/img10.jpg" width="100%" height="300" />
+                                <p>Mẫu 5</p>
+                            </li>
+                        </div>
+
+                        <div class="col-md-4">
+                            <li class="rock-list-item">
+                                <img src="./images/img11.jpg" width="100%" height="300" />
+                                <p>Mẫu 6</p>
+                            </li>
+                        </div>
+                    </div>
+
+                    <div class="rock-items row">
+                        <div class="col-md-4">
+                            <li class="rock-list-item">
+                                <img src="./images/img12.jpg" width="100%" height="300" />
+                                <p>Mẫu 7</p>
+                            </li>
+                        </div>
+
+                        <div class="col-md-4">
+                            <li class="rock-list-item">
+                                <img src="./images/img13.jpg" width="100%" height="300" />
+                                <p>Mẫu 8</p>
+                            </li>
+                        </div>
+
+                        <div class="col-md-4">
+                            <li class="rock-list-item">
+                                <img src="./images/img14.jpg" width="100%" height="300" />
+                                <p>Mẫu 9</p>
+                            </li>
+                        </div>
+                    </div>
+
+                    <div class="rock-items row">
+                        <div class="col-md-4">
+                            <li class="rock-list-item">
+                                <img src="./images/img15.jpg" width="100%" height="300" />
+                                <p>Mẫu 10</p>
+                            </li>
+                        </div>
+
+                        <div class="col-md-4">
+                            <li class="rock-list-item">
+                                <img src="./images/img16.jpg" width="100%" height="300" />
+                                <p>Mẫu 11</p>
+                            </li>
+                        </div>
+
+                        <div class="col-md-4">
+                            <li class="rock-list-item">
+                                <img src="./images/img17.jpg" width="100%" height="300" />
+                                <p>Mẫu 12</p>
+                            </li>
+                        </div>
+                    </div>
+
+                    <div class="rock-items row">
+                        <div class="col-md-4">
+                            <li class="rock-list-item">
+                                <img src="./images/img18.jpg" width="100%" height="300" />
+                                <p>Mẫu 13</p>
+                            </li>
+                        </div>
+
+                        <div class="col-md-4">
+                            <li class="rock-list-item">
+                                <img src="./images/img19.jpg" width="100%" height="300" />
+                                <p>Mẫu 14</p>
+                            </li>
+                        </div>
+
+                        <div class="col-md-4">
+                            <li class="rock-list-item">
+                                <img src="./images/img20.jpg" width="100%" height="300" />
+                                <p>Mẫu 15</p>
+                            </li>
+                        </div>
+                    </div>
+
+                    <div class="rock-items row">
+                        <div class="col-md-4">
+                            <li class="rock-list-item">
+                                <img src="./images/img21.jpg" width="100%" height="300" />
+                                <p>Mẫu 16</p>
+                            </li>
+                        </div>
+
+                        <div class="col-md-4">
+                            <li class="rock-list-item">
+                                <img src="./images/img22.jpg" width="100%" height="300" />
+                                <p>Mẫu 17</p>
+                            </li>
+                        </div>
+
+                        <div class="col-md-4">
+                            <li class="rock-list-item">
+                                <img src="./images/img23.jpg" width="100%" height="300" />
+                                <p>Mẫu 18</p>
+                            </li>
+                        </div>
+                    </div>
+
+                    <div class="rock-items row">
+                        <div class="col-md-4">
+                            <li class="rock-list-item">
+                                <img src="./images/img24.jpg" width="100%" height="300" />
+                                <p>Mẫu 19</p>
+                            </li>
+                        </div>
+
+                        <div class="col-md-4">
+                            <li class="rock-list-item">
+                                <img src="./images/img25.jpg" width="100%" height="300" />
+                                <p>Mẫu 20</p>
+                            </li>
+                        </div>
+
+                        <div class="col-md-4">
+                            <li class="rock-list-item">
+                                <img src="./images/img26.jpg" width="100%" height="300" />
+                                <p>Mẫu 21</p>
+                            </li>
+                        </div>
+                    </div>
+
+                    <div class="rock-items row">
+                        <div class="col-md-4">
+                            <li class="rock-list-item">
+                                <img src="./images/img27.jpg" width="100%" height="300" />
+                                <p>Mẫu 22</p>
+                            </li>
+                        </div>
+
+                        <div class="col-md-4">
+                            <li class="rock-list-item">
+                                <img src="./images/img28.jpg" width="100%" height="300" />
+                                <p>Mẫu 23</p>
+                            </li>
+                        </div>
+
+                        <div class="col-md-4">
+                            <li class="rock-list-item">
+                                <img src="./images/img29.jpg" width="100%" height="300" />
+                                <p>Mẫu 24</p>
+                            </li>
+                        </div>
+                    </div>
+                </ul>
+
+                <ul id="lu-list">
+                    <div class="lu-items row">
+                        <div class="col-md-4">
+                            <li class="lu-list-item">
+                                <img src="./images/img30.jpg" width="100%" height="300" />
+                                <p>Mẫu 1</p>
+                            </li>
+                        </div>
+                    </div>
+                </ul>
+
+                <ul id="co-list">
+                    <div class="co-items row">
+                        <div class="col-md-4">
+                            <li class="co-list-item">
+                                <img src="./images/img31.jpg" width="100%" height="300" />
+                                <p>Mẫu 1</p>
+                            </li>
+                        </div>
+
+                        <div class="col-md-4">
+                            <li class="co-list-item">
+                                <img src="./images/img32.jpg" width="100%" height="300" />
+                                <p>Mẫu 2</p>
+                            </li>
+                        </div>
+
+                        <div class="col-md-4">
+                            <li class="co-list-item">
+                                <img src="./images/img33.jpg" width="100%" height="300" />
+                                <p>Mẫu 3</p>
+                            </li>
+                        </div>
+                    </div>
+
+                    <div class="co-items row">
+                        <div class="col-md-4">
+                            <li class="co-list-item">
+                                <img src="./images/img34.jpg" width="100%" height="300" />
+                                <p>Mẫu 4</p>
+                            </li>
+                        </div>
+
+                        <div class="col-md-4">
+                            <li class="co-list-item">
+                                <img src="./images/img35.jpg" width="100%" height="300" />
+                                <p>Mẫu 5</p>
+                            </li>
+                        </div>
+
+                        <div class="col-md-4">
+                            <li class="co-list-item">
+                                <img src="./images/img36.jpg" width="100%" height="300" />
+                                <p>Mẫu 6</p>
+                            </li>
+                        </div>
+                    </div>
+
+                    <div class="co-items row">
+                        <div class="col-md-4">
+                            <li class="co-list-item">
+                                <img src="./images/img37.jpg" width="100%" height="300" />
+                                <p>Mẫu 7</p>
+                            </li>
+                        </div>
+
+                        <div class="col-md-4">
+                            <li class="co-list-item">
+                                <img src="./images/img38.jpg" width="100%" height="300" />
+                                <p>Mẫu 8</p>
+                            </li>
+                        </div>
+
+                        <div class="col-md-4">
+                            <li class="co-list-item">
+                                <img src="./images/img39.jpg" width="100%" height="300" />
+                                <p>Mẫu 9</p>
+                            </li>
+                        </div>
+                    </div>
+                </ul>
+
+                <ul id="hoa-list">
+                    <div class="hoa-items row">
+                        <div class="col-md-4">
+                            <li class="hoa-list-item">
+                                <img src="./images/img40.jpg" width="100%" height="300" />
+                                <p>Mẫu 1</p>
+                            </li>
+                        </div>
+
+                        <div class="col-md-4">
+                            <li class="hoa-list-item">
+                                <img src="./images/img41.jpg" width="100%" height="300" />
+                                <p>Mẫu 2</p>
+                            </li>
+                        </div>
+
+                        <div class="col-md-4">
+                            <li class="hoa-list-item">
+                                <img src="./images/img42.jpg" width="100%" height="300" />
+                                <p>Mẫu 3</p>
+                            </li>
+                        </div>
+                    </div>
+
+                    <div class="hoa-items row">
+                        <div class="col-md-4">
+                            <li class="hoa-list-item">
+                                <img src="./images/img43.jpg" width="100%" height="300" />
+                                <p>Mẫu 4</p>
+                            </li>
+                        </div>
+
+                        <div class="col-md-4">
+                            <li class="hoa-list-item">
+                                <img src="./images/img44.jpg" width="100%" height="300" />
+                                <p>Mẫu 5</p>
+                            </li>
+                        </div>
+
+                        <div class="col-md-4">
+                            <li class="hoa-list-item">
+                                <img src="./images/img45.jpg" width="100%" height="300" />
+                                <p>Mẫu 6</p>
+                            </li>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+
+</html>
